@@ -1,0 +1,16 @@
+variables:
+  ARM_PASS: $(adminPass)
+
+trigger:
+- none
+
+pool:
+  vmImage: 'ubuntu-latest'
+
+steps:
+- task: AzureWebAppContainer@1
+  displayName: 'Deploy Container to BrainLitTest-dev App Service'
+  inputs:
+    azureSubscription: BrainLit
+    appName: 'BrainLitTest-dev'
+    containers: 'tutum/hello-world:latest'
