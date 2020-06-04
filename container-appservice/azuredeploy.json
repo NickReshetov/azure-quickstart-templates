@@ -28,7 +28,7 @@
     },
     "appLocation": {
       "type": "String",
-      "defaultValue": "_MY_REGION_"
+      "defaultValue": "[resourceGroup().location]"
     }
   },
   "resources": [

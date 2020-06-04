@@ -1,8 +1,8 @@
 {
   "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentParameters.json#",
   "contentVersion": "1.0.0.0",
-  "parameters": {  
-  "appName": {
+  "parameters": {
+	"appName": {
       "value": "brainlittest-dev"
     },
 	"dockerImageName": {
@@ -13,6 +13,23 @@
     },
 	"dockerRegistryUsername": {
       "value": "tutum"
-    }
+    },
+	"dockerRegistryPassword": {
+      "value": ""
+    },
+	"_artifactsLocation": {
+      "value": ""
+    },
+	"_artifactsLocationSasToken": {
+      "value": ""
+    },
+	"servicePlanName": {
+      "value": "B1"
+    },
+	"appLocation": {
+      "value": ""
+    },
+	
+	
   }
 }
