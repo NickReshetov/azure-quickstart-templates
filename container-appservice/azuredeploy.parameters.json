@@ -1,9 +1,21 @@
 {
   "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentParameters.json#",
   "contentVersion": "1.0.0.0",
-  "parameters": {
-    "siteName": {
+  "parameters": {  
+  "appName": {
       "value": "brainlittest-dev"
+    },
+	"appServiceSku": {
+      "value": "B1"
+    },
+	"dockerImageName": {
+      "value": "tutum/hello-world:latest"
+    },
+	"dockerRegistryUrl": {
+      "value": "https://index.docker.io/v1/"
+    },
+	"dockerRegistryUsername": {
+      "value": "tutum"
     }
   }
 }
