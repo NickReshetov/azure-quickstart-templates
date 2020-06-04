@@ -17,12 +17,6 @@
 	"dockerRegistryPassword": {
       "value": ""
     },
-	"_artifactsLocation": {
-      "value": ""
-    },
-	"_artifactsLocationSasToken": {
-      "value": ""
-    },
 	"servicePlanName": {
       "value": "B1"
     },
