@@ -18,7 +18,7 @@
       "value": ""
     },
 	"servicePlanName": {
-      "value": "B1"
+      "value": "brainlittest-dev-ServicePlan"
     },
 	"appLocation": {
       "value": "North Europe"
