@@ -1,0 +1,323 @@
+{
+  "source": 2,
+  "revision": 3,
+  "description": null,
+  "createdBy": {
+    "displayName": "Nick R",
+    "url": "https://spsprodweu2.vssps.visualstudio.com/A9ea8fddd-477b-4307-9a1b-ba33a6938a4a/_apis/Identities/63425c9f-20d2-42e2-86c6-5bd437f767a1",
+    "_links": {
+      "avatar": {
+        "href": "https://dev.azure.com/nickreshetov/_apis/GraphProfile/MemberAvatars/msa.NDFjOWFmY2UtY2YyMS03MGI1LWI4OTEtMmY3NWYyNWE0MGZk"
+      }
+    },
+    "id": "63425c9f-20d2-42e2-86c6-5bd437f767a1",
+    "uniqueName": "nick.reshetov@gmail.com",
+    "imageUrl": "https://dev.azure.com/nickreshetov/_apis/GraphProfile/MemberAvatars/msa.NDFjOWFmY2UtY2YyMS03MGI1LWI4OTEtMmY3NWYyNWE0MGZk",
+    "descriptor": "msa.NDFjOWFmY2UtY2YyMS03MGI1LWI4OTEtMmY3NWYyNWE0MGZk"
+  },
+  "createdOn": "2020-06-03T21:37:58.630Z",
+  "modifiedBy": {
+    "displayName": "Nick R",
+    "url": "https://spsprodweu2.vssps.visualstudio.com/A9ea8fddd-477b-4307-9a1b-ba33a6938a4a/_apis/Identities/63425c9f-20d2-42e2-86c6-5bd437f767a1",
+    "_links": {
+      "avatar": {
+        "href": "https://dev.azure.com/nickreshetov/_apis/GraphProfile/MemberAvatars/msa.NDFjOWFmY2UtY2YyMS03MGI1LWI4OTEtMmY3NWYyNWE0MGZk"
+      }
+    },
+    "id": "63425c9f-20d2-42e2-86c6-5bd437f767a1",
+    "uniqueName": "nick.reshetov@gmail.com",
+    "imageUrl": "https://dev.azure.com/nickreshetov/_apis/GraphProfile/MemberAvatars/msa.NDFjOWFmY2UtY2YyMS03MGI1LWI4OTEtMmY3NWYyNWE0MGZk",
+    "descriptor": "msa.NDFjOWFmY2UtY2YyMS03MGI1LWI4OTEtMmY3NWYyNWE0MGZk"
+  },
+  "modifiedOn": "2020-06-03T22:23:54.710Z",
+  "isDeleted": false,
+  "lastRelease": {
+    "id": 5,
+    "name": "Release-5",
+    "artifacts": [
+    ],
+    "_links": {
+    },
+    "description": "",
+    "releaseDefinition": {
+      "id": 1,
+      "projectReference": null,
+      "_links": {
+      }
+    },
+    "createdOn": "2020-06-03T22:20:24.853Z",
+    "createdBy": {
+      "displayName": "Nick R",
+      "url": "https://spsprodweu2.vssps.visualstudio.com/A9ea8fddd-477b-4307-9a1b-ba33a6938a4a/_apis/Identities/63425c9f-20d2-42e2-86c6-5bd437f767a1",
+      "_links": {
+        "avatar": {
+          "href": "https://dev.azure.com/nickreshetov/_apis/GraphProfile/MemberAvatars/msa.NDFjOWFmY2UtY2YyMS03MGI1LWI4OTEtMmY3NWYyNWE0MGZk"
+        }
+      },
+      "id": "63425c9f-20d2-42e2-86c6-5bd437f767a1",
+      "uniqueName": "nick.reshetov@gmail.com",
+      "imageUrl": "https://dev.azure.com/nickreshetov/_apis/GraphProfile/MemberAvatars/msa.NDFjOWFmY2UtY2YyMS03MGI1LWI4OTEtMmY3NWYyNWE0MGZk",
+      "descriptor": "msa.NDFjOWFmY2UtY2YyMS03MGI1LWI4OTEtMmY3NWYyNWE0MGZk"
+    }
+  },
+  "variables": {
+  },
+  "variableGroups": [
+  ],
+  "environments": [
+    {
+      "id": 1,
+      "name": "DEV",
+      "rank": 1,
+      "owner": {
+        "displayName": "Nick R",
+        "url": "https://spsprodweu2.vssps.visualstudio.com/A9ea8fddd-477b-4307-9a1b-ba33a6938a4a/_apis/Identities/63425c9f-20d2-42e2-86c6-5bd437f767a1",
+        "_links": {
+          "avatar": {
+            "href": "https://dev.azure.com/nickreshetov/_apis/GraphProfile/MemberAvatars/msa.NDFjOWFmY2UtY2YyMS03MGI1LWI4OTEtMmY3NWYyNWE0MGZk"
+          }
+        },
+        "id": "63425c9f-20d2-42e2-86c6-5bd437f767a1",
+        "uniqueName": "nick.reshetov@gmail.com",
+        "imageUrl": "https://dev.azure.com/nickreshetov/_apis/GraphProfile/MemberAvatars/msa.NDFjOWFmY2UtY2YyMS03MGI1LWI4OTEtMmY3NWYyNWE0MGZk",
+        "descriptor": "msa.NDFjOWFmY2UtY2YyMS03MGI1LWI4OTEtMmY3NWYyNWE0MGZk"
+      },
+      "variables": {
+      },
+      "variableGroups": [
+      ],
+      "preDeployApprovals": {
+        "approvals": [
+          {
+            "rank": 1,
+            "isAutomated": true,
+            "isNotificationOn": false,
+            "id": 1
+          }
+        ],
+        "approvalOptions": {
+          "requiredApproverCount": null,
+          "releaseCreatorCanBeApprover": false,
+          "autoTriggeredAndPreviousEnvironmentApprovedCanBeSkipped": false,
+          "enforceIdentityRevalidation": false,
+          "timeoutInMinutes": 0,
+          "executionOrder": 1
+        }
+      },
+      "deployStep": {
+        "id": 2
+      },
+      "postDeployApprovals": {
+        "approvals": [
+          {
+            "rank": 1,
+            "isAutomated": true,
+            "isNotificationOn": false,
+            "id": 3
+          }
+        ],
+        "approvalOptions": {
+          "requiredApproverCount": null,
+          "releaseCreatorCanBeApprover": false,
+          "autoTriggeredAndPreviousEnvironmentApprovedCanBeSkipped": false,
+          "enforceIdentityRevalidation": false,
+          "timeoutInMinutes": 0,
+          "executionOrder": 2
+        }
+      },
+      "deployPhases": [
+        {
+          "deploymentInput": {
+            "parallelExecution": {
+              "parallelExecutionType": 0
+            },
+            "agentSpecification": {
+              "identifier": "vs2017-win2016"
+            },
+            "skipArtifactsDownload": false,
+            "artifactsDownloadInput": {
+              "downloadInputs": [
+              ]
+            },
+            "queueId": 18,
+            "demands": [
+            ],
+            "enableAccessToken": false,
+            "timeoutInMinutes": 0,
+            "jobCancelTimeoutInMinutes": 1,
+            "condition": "succeeded()",
+            "overrideInputs": {
+            }
+          },
+          "rank": 1,
+          "phaseType": 1,
+          "name": "Run on agent",
+          "refName": null,
+          "workflowTasks": [
+            {
+              "environment": {
+              },
+              "taskId": "15858991-8bac-4542-99e7-577fef9b5be6",
+              "version": "1.*",
+              "name": "Deploy Container to BrainLitTest-dev App Service",
+              "refName": "",
+              "enabled": true,
+              "alwaysRun": false,
+              "continueOnError": false,
+              "timeoutInMinutes": 0,
+              "definitionType": "task",
+              "overrideInputs": {
+              },
+              "condition": "succeeded()",
+              "inputs": {
+                "azureSubscription": "f312075b-a6c9-4aaf-8a85-a9aff193b9f9",
+                "appName": "BrainLitTest-dev",
+                "deployToSlotOrASE": "false",
+                "resourceGroupName": "",
+                "slotName": "production",
+                "imageName": "tutum/hello-world:latest",
+                "multicontainerConfigFile": "",
+                "containerCommand": "",
+                "appSettings": "",
+                "configurationStrings": ""
+              }
+            }
+          ]
+        }
+      ],
+      "environmentOptions": {
+        "emailNotificationType": "OnlyOnFailure",
+        "emailRecipients": "release.environment.owner;release.creator",
+        "skipArtifactsDownload": false,
+        "timeoutInMinutes": 0,
+        "enableAccessToken": false,
+        "publishDeploymentStatus": true,
+        "badgeEnabled": false,
+        "autoLinkWorkItems": false,
+        "pullRequestDeploymentEnabled": false
+      },
+      "demands": [
+      ],
+      "conditions": [
+        {
+          "name": "ReleaseStarted",
+          "conditionType": 1,
+          "value": ""
+        }
+      ],
+      "executionPolicy": {
+        "concurrencyCount": 1,
+        "queueDepthCount": 0
+      },
+      "schedules": [
+      ],
+      "currentRelease": {
+        "id": 5,
+        "url": "https://vsrm.dev.azure.com/nickreshetov/d2e99ffa-0956-461e-b239-62fbbba47d1e/_apis/Release/releases/5",
+        "_links": {
+        }
+      },
+      "retentionPolicy": {
+        "daysToKeep": 30,
+        "releasesToKeep": 3,
+        "retainBuild": true
+      },
+      "processParameters": {
+        "dataSourceBindings": [
+          {
+            "dataSourceName": "AzureRMWebAppNamesByAppType",
+            "parameters": {
+              "WebAppKind": "$(WebAppKind)"
+            },
+            "endpointId": "$(ConnectedServiceName)",
+            "target": "WebAppName"
+          }
+        ]
+      },
+      "properties": {
+        "BoardsEnvironmentType": {
+          "$type": "System.String",
+          "$value": "unmapped"
+        },
+        "LinkBoardsWorkItems": {
+          "$type": "System.String",
+          "$value": "False"
+        }
+      },
+      "preDeploymentGates": {
+        "id": 0,
+        "gatesOptions": null,
+        "gates": [
+        ]
+      },
+      "postDeploymentGates": {
+        "id": 0,
+        "gatesOptions": null,
+        "gates": [
+        ]
+      },
+      "environmentTriggers": [
+      ],
+      "badgeUrl": "https://vsrm.dev.azure.com/nickreshetov/_apis/public/Release/badge/d2e99ffa-0956-461e-b239-62fbbba47d1e/1/1"
+    }
+  ],
+  "artifacts": [
+    {
+      "sourceId": "ea5c90b4-9e6b-4833-8038-bab2c9bb75b9:hello-world:latest",
+      "type": "DockerHub",
+      "alias": "_hello-worldlatest",
+      "definitionReference": {
+        "connection": {
+          "id": "ea5c90b4-9e6b-4833-8038-bab2c9bb75b9",
+          "name": "DockerHub"
+        },
+        "defaultVersionType": {
+          "id": "latestType",
+          "name": "Latest"
+        },
+        "definition": {
+          "id": "hello-world:latest",
+          "name": "hello-world:latest"
+        },
+        "namespaces": {
+          "id": "tutum",
+          "name": "tutum"
+        }
+      },
+      "isPrimary": true,
+      "isRetained": false
+    }
+  ],
+  "triggers": [
+  ],
+  "releaseNameFormat": "Release-$(rev:r)",
+  "tags": [
+  ],
+  "properties": {
+    "DefinitionCreationSource": {
+      "$type": "System.String",
+      "$value": "ReleaseNew"
+    },
+    "IntegrateBoardsWorkItems": {
+      "$type": "System.String",
+      "$value": "False"
+    },
+    "IntegrateJiraWorkItems": {
+      "$type": "System.String",
+      "$value": "false"
+    }
+  },
+  "id": 1,
+  "name": "New release pipeline",
+  "path": "\\",
+  "projectReference": null,
+  "url": "https://vsrm.dev.azure.com/nickreshetov/d2e99ffa-0956-461e-b239-62fbbba47d1e/_apis/Release/definitions/1",
+  "_links": {
+    "self": {
+      "href": "https://vsrm.dev.azure.com/nickreshetov/d2e99ffa-0956-461e-b239-62fbbba47d1e/_apis/Release/definitions/1"
+    },
+    "web": {
+      "href": "https://dev.azure.com/nickreshetov/d2e99ffa-0956-461e-b239-62fbbba47d1e/_release?definitionId=1"
+    }
+  }
+}
