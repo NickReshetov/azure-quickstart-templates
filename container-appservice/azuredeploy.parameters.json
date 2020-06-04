@@ -1,0 +1,27 @@
+{
+  "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+	"appName": {
+      "value": "brainlittest-dev"
+    },
+	"dockerImageName": {
+      "value": "tutum/hello-world:latest"
+    },
+	"dockerRegistryUrl": {
+      "value": "https://index.docker.io/v1/"
+    },
+	"dockerRegistryUsername": {
+      "value": "tutum"
+    },
+	"dockerRegistryPassword": {
+      "value": ""
+    },
+	"servicePlanName": {
+      "value": "brainlittest-dev-ServicePlan"
+    },
+	"appLocation": {
+      "value": "North Europe"
+    }
+  }
+}
